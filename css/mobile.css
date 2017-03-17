@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* --------------- @ Start of MOBILE media-query ------------------ */
+@media ( max-width : 991px) {
+	/*  ---------	[ start of COMMON TAGS ]  -------  */
+	html {
+		color: #222;
+		font-size: 1em;
+		line-height: 1.4;
+	}
+	body {
+		font-family: 'Nanum Gothic', serif !important;
+		border: 0px;
+		padding: 0px;
+		margin: 0px;
+		line-height: 2em !important;
+		width: 100%;
+	}
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	h1 {
+		font-size: 1.5em;
+		line-height: 1em;
+		text-align:center;
+		margin-top: 2.5em;
+	}
+	h3 a {
+		font-weight: normal;
+		margin-left: 0.5em;
+		color: gray;
+	}
+	h3 a:hover {
+		border: #003b7e 10px solid;
+	}
+	article a {
+		color: #0066cc;
+	}
+	dt {
+		float: none;
+		clear: both;
+		width: 150px;
+		font-weight: bold;
+	}
+	dd {
+		margin-left: 0px;
+		margin-bottom: 15px;
+	}
+
+	/*클래스 요소 - 알파벳순*/
+	.column {
+		/* clear: both; */
+		
+	}
+	.column_1of2 {
+		margin-top: 4em;
+		width: 100%;
+		/* float: left; */
+	}
+	.column_1of3 {
+		width: 100%;
+		float: left;
+	}
+	.column_1of3 img {
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 3em;
+	}
+	.column_1of4 {
+		width: 100%;
+		float: left;
+	}
+	.column_1of4 img {
+		width: 100%;
+		margin-left: 0%;
+		margin-bottom: 3em;
+		border: #ccc 1px solid;
+	}
+	.clear_both {
+		width: 100%;
+		height: 5em;
+		clear: both;
+	}
+	
+	.port_01 {
+		width: 100%;
+		border: thin;
+		border-style: solid;
+		border-color: #999;
+		margin: 5px;
+	}
+	.port_img {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.row_line{
+		margin: 0 auto;
+		width: 140px;
+		height:0.5em;
+		background-color: #003b7e;
+	}
+	.title_bg {
+		color: #000;
+	}
+	.wrapper {
+		padding-top: 5em; /*웹과다름*/
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	/*  ---------	[ end of COMMON TAGS ]  -------  */
+
+	/*-------< start of INDEX >------- */
+	.index_nav {
+		margin-top: 3em;
+	}
+	.index_nav b {
+		color: #003b7e;
+		display: block;
+	}
+	.my_bi {
+		width: 220px;
+		height: 220px;
+		float: none;
+		border-radius: 50%;
+		/* margin-right: 50px; */
+		margin: 0 auto;
+		margin-bottom: 3em;
+		background-color: #003b7e;
+		color: #fff;
+		line-height: 220px;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	/*-------< end of INDEX >------- */
+
+	/*-------< start of HEADER.PHP >------- */
+	.header_upper {
+		width: 100%;
+		z-index: 40;
+		position: fixed;
+		text-align: center;
+		color: #000;
+		position: fixed;
+		background: rgba(0,0,0,0.9);
+		border-bottom: rgba(0,59,156,0.1) 1px solid;
+	}
+	.header_upper_title {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		background-color: #000;
+		margin-bottom: 0px !important;
+	}
+	.header_upper_title a {
+		color: #fff;
+	}
+	.nav_txt {
+		display: none;
+	}
+	.fa-circle {
+		color: gold;
+	}
+	.fa-inverse {
+		color: #000 !important;
+	}
+	.fa-inverse:hover {
+		color: #fff !important;
+	}
+	.top_menu {
+		width: 100%;
+		/* background-color: #f2fcff; */
+		opacity: 0.9;
+		margin-top: 0px !important;
+		position: relative;
+		height: 3.5em;
+		z-index: 30;
+		margin: 0 auto;
+	}
+	.top_menu_title {
+		/* display: none; */
+	}
+	.top_menu ul {
+		padding-left:5%;
+	}
+	.top_menu ul li {
+		list-style: none;
+		float: left;
+		padding-right: 1em;
+	}
+	.top_menu ul li a {
+		color: #fff;
+		font-size: 1.2em;
+	}
+	.top_menu ul li a:hover {
+		color: #ddd;
+	}
+
+	/*-------< end of HEADER.PHP >------- */
+
+	/*------------- 경력사항 ----------------- */
+	.career_period {
+		padding: 1.5em;
+		height: 70px;
+		width: 70px;
+		background-color: gold;
+		font-weight:600;
+		color: #000;
+		border-radius: 50%;
+		margin-top:2.5em;
+	}
+	.now_project {
+		color: gold;
+	}
+}

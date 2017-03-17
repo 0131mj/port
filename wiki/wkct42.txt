@@ -1,0 +1,39 @@
+오에카키
+UNIX 시간 : 1050028278 / 상용 시간 2003.04.11, 11:31 am
+JSOekaki는 아무런 추가 설치 없이 ''' 표준 HTML과 표준 Javascript 만으로 동작하는 ''' 간단한 그림판 입니다. 따라서 아무 곳에다 간단히 달 수 있습니다. 위키키위에는 버전426b에서 표준으로 같이 설치됩니다.
+
+예시
+@JSoekaki_start@
+{bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb}{brrrrbyyybwwwwwwwwwwwwwwwwwwwwwwwwwwwwwb}{brrrrbyyybwwwwwwwwwwwwwwwwwwwwwwwwwwwwwb}{brrrrbyybbwbwwwwwwwwwwwwwwwwwwwwwwwwwwwb}{brrrbbyybwwwbbbbbbwwwwwwwwwwwwwwwwwwwwwb}{brrbbyyybwwwwbwwwbbbwwwwwwwwwwwwwwwwwwwb}{bbbbyyybbwwwwbbwwwwwbbbwwwwwwwwwwwwwwwwb}{bbyyyybbwwwwwwbbwwwwwwwbbwwwwwwwwwwwwwwb}{byyyyybwwwwwwwbbbwwwwwwwwbbbwwwwwwwwwwwb}{byyyybwwwwwwwwbwbwwwwwwwwbybbwwwwwwwwwwb}{byybbwwwwwwwwwbbwbwwwwwwbbyyybbwwwwwwwwb}{bbbbwwwwwwwwwwwbwbwwwwwbbyyyyybbwwwwwwwb}{bwwwwwwwwwwwwwwbwbwwwwbbyyyyyybbwwwwwwwb}{bwwwwwwwwwwwwwwbwbbbbbyyyyyyybbbwwwwwwwb}{bwwwwwwwwwwwwwwbbbbyyyyyyyybbwwbbwwwwwwb}{bwwwwwwwwwwwwwwwbwbyyyyyyybbwwwwbwwwwwwb}{bwwwwwbbwwwbbbwwbwbyyyyyyybwwwwwbwwwwwwb}{bwwwwbbbbwbbwbbwbbbyyyybbbwwwwwwbwwwwwwb}{bwwwbbwwwbbwwwbwwbbbbbbbwwwwwwwwbwwwwwwb}{bwwwbwwwwwwwwwwwwbwbwwwwwwwwwwwbbwwwwwwb}{bwwwwwwwwbbwwwwwwbwbwwwwwwwwwwwbwwwwwwwb}{bwwwwwwbbbwwwwwwwbbbwwwwwwwwwwbbwwwwwwwb}{bwwwwwwbwbwwwwwwwwbbbwwwwwwwwbbwwwwwwwwb}{bwwwwwwwwwwwwwwwwwbwbwwwwwwbbwwwwwwwwwwb}{bwwwwwwwwwwwwwwwwwbbbwwwwbbbwwwwwwwwwwwb}{bwwwwwwwwwwwwwwwwwwbbwwwbbwwwwwwwwwwbbwb}{bwwwwwwwwwwwwwwwwwwbbwwbbwwwwwwwwwbbbbwb}{bwwwwwwwwwwwwwwwwwwbwwbbwwwbbbbbbbbwbbwb}{bwwwwwwwwwwwwwwwwwwbwbbbbbbbwwwwwwwwbbwb}{bwwbbwwwwwwwwwwwwwwbbbwwwwwwwwwwwwwwbbwb}{bwwbbbbbbbbbbbbbbbbbbwwwwwwwwwwwwwwwbbbb}{bwwwbbbbbbwwwwwwwwwbwwwwbbbbwwwwwwwbsssb}{bwbbwwbbsbbwwwwwwwwbwwwwbsssbwwbbbbssssb}{bwbsbwwbssbbwwwwbbbwwwwwbssssbbssssssssb}{bwbsbbwbsssbbbwwbsssbwwbsssssssssssssssb}{bbbssbbbsssssbbbbssssbbssssssssssssssssb}{bssssssssssssssssssssssssssssssssssssssb}{bssssssssssssssssssssssssssssssssssssssb}{bssssssssssssssssssssssssssssssssssssssb}{bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb}
+@JSoekaki_end@
+예제로 그린 태평양을 누비는 gerecter의 요트 그림
+
+
+=== 위키키위에서 JSOekaki 쓰기 ===
+아무 페이지나 수정할 때, 딸려 나오는 그림판에 그림을 그리고 밑에 달린 저장 버튼을 누르기만 하면 됩니다.
+
+ ^^  ''' 좀 더 자세히 ... '''
+위키키위에서 페이지 수정을 하게 되면, 내용 수정하는 영역 아래, "완료" 버튼 아래에, 작은 그림판이 하나 붙어 있습니다. 이 그림판을 클릭하면 그림을 그릴 수 있습니다. 그림판 아래의 까만 상자, 연필 아이콘, 물약 아이콘은, 각각 색깔 변경, 그리기, 칠하기 의 기능을 갖고 있습니다.
+
+그림을 다 그린후 위키키위에 삽입하려면, 저장 아이콘인 디스크 모양의 아이콘을 누르면 됩니다. 이 아이콘을 누르면 지금까지 그린 그림이 (at)JSOekaki_start(at) .... (at)JSOekaki_end(at) 과 같은 형태의 위키키위 태그로 변형되어서 현재 수정 중인 문서의 맨 뒤에 붙어 버립니다. 따라서 이 태그 부분의 위치를 조정하면 그림의 위치도 조정할 수 있습니다.
+
+ (!)  ''' 위키 키위에서 오에카키를 쓰지 않으려면? ''' 오에카키를 쓴다고 해도 서버에 부담을 주는 것은 아닙니다. 하지만, 오에카키를 전혀쓰지 않는 다면 작업할 때 보고 싶지 않을 수도 있습니다. 이럴 경우에, 디자인 파일 (wk_design.htm) 에, <!--NO OEKAKI--> 라는 문구를 띄어쓰기를 하지 않은채 끼워 넣으면, 오에카키가 동작하지 않습니다.
+
+
+=== 오에카키 ''' 없는 ''' 블로그, 게시판 에까지 그림 붙이기 ===
+JSOekaki는 그림을 HTML 태그로 변환하여 저장합니다. 따라서, HTML을 지원하는 어떤 곳에라도 붙일 수가 있다. 그림이 보이는 페이지를 열고 웹브라우저의 "소스 보기"를 하십시오. 그러면 그림이 표시되는 부분에 TABLE 태그로 시작해서 /TABLE 태그로 끝이 나는 꽤 커다란 테이블 덩어리를 볼 수 있을 겁니다. 이것이 JSOekaki로 그린 그림입니다.
+
+이 태그덩어리를 복사해서, 붙이고 싶은 곳에 붙이면 됩니다. 다수의 블로그와 웹게시판에서 간단히 붙일 수 있습니다.
+
+
+=== 내 사이트에 JSOekaki를 달고 싶다면 ===
+위키키위가 아닌 다른 사이트에, JSOekaki를 달고 싶다면, 어떻게 해야 하나. JSOekaki는  자바스크립트로 되어 있고, 이 자바스크립트가 form의 textarea에 데이터를 추가해 주는 방식입니다.
+
+우선 JSOekaki 소스를 받은 뒤, JSOekaki를 달고 싶은 사이트의 HTML 코드 중간에 끼워 넣으십시오.
+
+그리고 소스 앞부분에 보이는 javascript 변수 formno의 값을 보십시오. 기본값은 -1입니다. -1로 해 두면, JSOekaki는 현재 표시된 form들 중에 가장 마지막 것에 그림을 끼워 넣습니다. 특별하지 않으면 그대로 두어도 되나, 혹시 사이트를 구성할 때 2개 이상의 form으로 구성했다면, formno의 값을 JSOekaki로 그린 그림이 들어갈 textarea가 있는 form의 번호로 설정하십시오.
+
+그리고, JSOekaki 소스에서 function attach_standalone 에서 맨 마지막 줄을 수정해야 합니다. 이 부분에 contents.value 를 끼워 넣을 사이트의 내용이 들어가는 textarea의 name에 해당하도록 name.value 로 고쳐 주어야 합니다.
+
+자세한 사항은 [http://kldp.net/projects/jsoekaki/] 을 참조 하시기 바랍니다.
+
