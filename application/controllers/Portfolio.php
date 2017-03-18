@@ -2,9 +2,8 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * Class Portfolio
+ * @brief Class Portfolio 포트폴리오 메인컨트롤러
  * @author 배명진(0131mj@gmail.com)
- * @brief 포트폴리오 메인컨트롤러
  * @see https://github.com/0131mj/port
  * @todo 수정, 삭제 기능 구현
  */
