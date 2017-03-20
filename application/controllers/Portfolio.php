@@ -95,11 +95,8 @@ class Portfolio extends CI_Controller {
         $this->load->view('main_v',$data);
     }
 
-
-
-
     /**
-     * @brief
+     * @brief 글쓰기 수행
      */
     public function insert_run()
     {
@@ -137,12 +134,15 @@ class Portfolio extends CI_Controller {
     }
 
     /**
-     *
+     * 업데이트 수행
      */
     public function update_run()
     {
         // 1. 데이터 수정
         $post_data =  $this->input->post();
+        print_r($_FILES);
+        print_r($post_data);
+        exit;
 
         $_FILES['img']['img_idx'] = $post_data['img_idx'];
         dump($post_data);
@@ -355,5 +355,4 @@ class Portfolio extends CI_Controller {
 //			</dd>
         return $portfolio_list;
     }
-
 }

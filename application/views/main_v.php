@@ -6,9 +6,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <link rel="shortcut icon" type="image/x-icon" href="/portfolio/favicon.ico">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/mobile.css">
-    <link rel="stylesheet" href="/css/web.css">
+    <link rel="stylesheet" href="<?php echo ROOT_DIR;?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo ROOT_DIR;?>/css/mobile.css">
+    <link rel="stylesheet" href="<?php echo ROOT_DIR;?>/css/web.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>

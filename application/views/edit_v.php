@@ -6,6 +6,7 @@
     {
         print_r($list);
         $title = $list['title'];
+        $subtitle = $list['subtitle'];
         $img_list = $list['img_list'];
         $mode='update';
     }
@@ -17,53 +18,53 @@
     <?php endif;?>
     <dl>
         <dt>분류</dt>
-        <dd>
-            <input type="radio" name="category" value="web" checked>WEB & MOBILE
-            <input type="radio" name="category" value="app">APP
-            <input type="radio" name="category" value="ci">CI&BI
-        </dd>
+<!--        <dd>-->
+<!--            <input type="radio" name="category" value="web" checked>WEB & MOBILE-->
+<!--            <input type="radio" name="category" value="app">APP-->
+<!--            <input type="radio" name="category" value="ci">CI&BI-->
+<!--        </dd>-->
         <dt>제목</dt>
         <dd>
             <input type="text" name="title" value="<?php echo $title;?>"></dd>
-        <dt>부제</dt>
-        <dd><input type="text" name="subtitle" value="<?php echo($port->subtitle)?>"></dd>
-        <dt>URL</dt>
-        <dd><input type="text" name="url" value="<?php echo($list->url)?>"></dd>
-        <dt>제작 목적</dt>
-        <dd><textarea name="purpose"><?php echo($list->purpose)?></textarea></dd>
-        <dt>제작 기간</dt>
-        <dd><input type="text" name="period" value="<?php echo($list->period)?>"></dd>
-        <dt>작업 인원</dt>
-        <dd><input type="text" name="member" value="<?php echo($list->member)?>"></dd>
-        <dt>사용 언어</dt>
-        <dd>
-            <input type="checkbox" name="language[]" value="HTML">HTML
-            <input type="checkbox" name="language[]" value="CSS">CSS
-            <input type="checkbox" name="language[]" value="php">PHP
-            <input type="checkbox" name="language[]" value="java">Java
-            <input type="checkbox" name="language[]" value="js">JavaScript
-            <input type="checkbox" name="language[]" value="python">Python
-        </dd>
-        <dt>프레임워크</dt>
-        <dd>
-            <input type="checkbox" name="framework[]" value="ci">CodeIgniter
-        </dd>
-        <dt>라이브러리</dt>
-        <dd>
-            <input type="checkbox" name="library[]" value="ci">
-        </dd>
-        <dt>참여도-개발</dt>
-        <dd><input type="number" name="part_dev"></dd>
-        <dt>참여도-기획</dt>
-        <dd><input type="text" name="part_plan"></dd>
-        <dt>참여도-디자인</dt>
-        <dd><input type="text" name="part_design"></dd>
-        <dt>개발 환경</dt>
-        <dd><input type="text" name="environment"></dd>
-        <dt>클라이언트</dt>
-        <dd><input type="text" name="client"></dd>
-        <dt>회사</dt>
-        <dd><input type="text" name="company"></dd>
+<!--        <dt>부제</dt>-->
+<!--        <dd><input type="text" name="subtitle" value="--><?php //echo($subtitle)?><!--"></dd>-->
+<!--        <dt>URL</dt>-->
+<!--        <dd><input type="text" name="url" value="--><?php //echo($list->url)?><!--"></dd>-->
+<!--        <dt>제작 목적</dt>-->
+<!--        <dd><textarea name="purpose">--><?php //echo($list->purpose)?><!--</textarea></dd>-->
+<!--        <dt>제작 기간</dt>-->
+<!--        <dd><input type="text" name="period" value="--><?php //echo($list->period)?><!--"></dd>-->
+<!--        <dt>작업 인원</dt>-->
+<!--        <dd><input type="text" name="member" value="--><?php //echo($list->member)?><!--"></dd>-->
+<!--        <dt>사용 언어</dt>-->
+<!--        <dd>-->
+<!--            <input type="checkbox" name="language[]" value="HTML">HTML-->
+<!--            <input type="checkbox" name="language[]" value="CSS">CSS-->
+<!--            <input type="checkbox" name="language[]" value="php">PHP-->
+<!--            <input type="checkbox" name="language[]" value="java">Java-->
+<!--            <input type="checkbox" name="language[]" value="js">JavaScript-->
+<!--            <input type="checkbox" name="language[]" value="python">Python-->
+<!--        </dd>-->
+<!--        <dt>프레임워크</dt>-->
+<!--        <dd>-->
+<!--            <input type="checkbox" name="framework[]" value="ci">CodeIgniter-->
+<!--        </dd>-->
+<!--        <dt>라이브러리</dt>-->
+<!--        <dd>-->
+<!--            <input type="checkbox" name="library[]" value="ci">-->
+<!--        </dd>-->
+<!--        <dt>참여도-개발</dt>-->
+<!--        <dd><input type="number" name="part_dev"></dd>-->
+<!--        <dt>참여도-기획</dt>-->
+<!--        <dd><input type="text" name="part_plan"></dd>-->
+<!--        <dt>참여도-디자인</dt>-->
+<!--        <dd><input type="text" name="part_design"></dd>-->
+<!--        <dt>개발 환경</dt>-->
+<!--        <dd><input type="text" name="environment"></dd>-->
+<!--        <dt>클라이언트</dt>-->
+<!--        <dd><input type="text" name="client"></dd>-->
+<!--        <dt>회사</dt>-->
+<!--        <dd><input type="text" name="company"></dd>-->
         <dt>이미지파일</dt>
         <dd>
             <ul id="img_list">

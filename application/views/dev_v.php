@@ -5,12 +5,12 @@
     <div class="column_1of1" style="clear:both">
         <h2 style="text-align: center; font-weight: bold"><?php echo $port->title;?>&nbsp;
             <br>&nbsp;
-            <button><a href="/portfolio/modify/<?php echo $port->idx?>">수정</a></button>
-            <button><a href="/portfolio/hide/<?php echo $port->idx?>">비공개로 전환</a></button>
+            <button><a href="<?php echo ROOT_DIR;?>portfolio/modify/<?php echo $port->idx?>">수정</a></button>
+            <button><a href="<?php echo ROOT_DIR;?>portfolio/hide/<?php echo $port->idx?>">비공개로 전환</a></button>
             <button class="delete_port btn btn-danger" data-idx="<?php echo $port->idx?>">삭제</button>
         </h2>
         <?php foreach($port->img_list as $img):?>
-            <img src="/<?php echo $img->img;?>" class="port_img">
+            <img src="<?php echo ROOT_DIR.$img->img;?>" class="port_img">
         <?php endforeach;?>
         <p style="text-align: center">
             <a href="<?php echo $port->url;?>" target="_blank"><?php echo $port->url;?></a>
