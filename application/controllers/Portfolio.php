@@ -5,21 +5,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @brief Class Portfolio 포트폴리오 메인컨트롤러++
  * @author 배명진(0131mj@gmail.com)
  * @see https://github.com/0131mj/port
- * @todo 수정, 삭제 기능 구현
+ * @todo 수정, 삭제 기능 구현, 헬퍼 대소문자 변환
  */
 class Portfolio extends CI_Controller {
 
     public function __construct()
     {
         parent::__construct();
-        $this->load->database();
-        $this->load->model('Portfolio_m');
-        $this->load->helper(array('url','MY_common'));
+        $this->load->database(); //데이터베이스 로드
+        $this->load->model('Portfolio_m'); // 모델 로드
+        $this->load->helper(array('url','MY_common')); //헬퍼 로드
 
         $this->output->set_header('Last-Modified: ' . gmdate("D, d M Y H:i:s") . ' GMT'); ('Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
         $this->output->set_header('Pragma: no-cache');
         $this->output->set_header("Expires: Mon, 26 Jul 1997 05:00:00 GMT");
     }
+
+    //각 페이지 호출
 
     public function index()
 	{
@@ -67,9 +69,21 @@ class Portfolio extends CI_Controller {
     /**
      * @brief 포트폴리오 삭제
      * @param $idx
+     * 1) 디렉토리 이름으로 삭제하기
+     * 2) 파일명을 와일드카드로 확인해서 삭제하기
      */
     public function delete($idx)
     {
+        //첨부된 이미지파일 삭제
+        $list = glob('img/upload/'.$idx.'_*');
+
+        foreach ($list as $file){
+            dump($file);
+            echo file_exists($file);
+            unlink($file);
+        }
+
+        //해당 글 삭제
         $result = $this->Portfolio_m->delete_port($idx);
         if($result == true)
         {
@@ -140,9 +154,9 @@ class Portfolio extends CI_Controller {
     {
         // 1. 데이터 수정
         $post_data =  $this->input->post();
-        print_r($_FILES);
-        print_r($post_data);
-        exit;
+        dump($_FILES);
+        echo '<br>';
+        dump($post_data);
 
         $_FILES['img']['img_idx'] = $post_data['img_idx'];
         dump($post_data);

@@ -17,7 +17,7 @@
     <input type="hidden" name="p_idx" value="<?php echo $list['idx'];?>">
     <?php endif;?>
     <dl>
-        <dt>분류</dt>
+<!--        <dt>분류</dt>-->
 <!--        <dd>-->
 <!--            <input type="radio" name="category" value="web" checked>WEB & MOBILE-->
 <!--            <input type="radio" name="category" value="app">APP-->
